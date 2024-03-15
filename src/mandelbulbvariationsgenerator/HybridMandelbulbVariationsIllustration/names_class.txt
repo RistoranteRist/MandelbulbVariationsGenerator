@@ -1,0 +1,4 @@
+power8-rule302
+power7-rule128
+power8-rule302_power7-rule128
+power7-rule128_power8-rule302
