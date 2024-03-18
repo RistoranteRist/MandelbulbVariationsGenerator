@@ -82,6 +82,7 @@ Regarding WideResNet-50 pre-training for the anomaly detection task, we suggest 
 For any inquiries, please create an issue in this repository or send an email to one of the following addresses:
 
 benjamin.chiche@rist.co.jp
+
 yuto.horikawa@rist.co.jp
 
 ## Citation
