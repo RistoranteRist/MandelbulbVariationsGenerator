@@ -1,9 +1,10 @@
 # MandelbulbVariationsGenerator
 
-This supplementary material includes the following files.
+This is the official repository of our work Pre-training Vision Models with Mandelbulb Variations. 
+This repository includes the following files.
 
-* Some samples of our proposed datasets (`samples`)
-* Python scripts to generate the datasets (`src`)
+* Some samples of our proposed datasets (`samples`);
+* Python scripts to generate the datasets (`src`), based on OpenGL Shading Language.
 
 ![](samples/MandelbulbVAR-1k/power10-rule42/1.png)
 ![](samples/MandelbulbVAR-Hybrid-21k/power10-rule132_power9-rule32/7.png)
@@ -67,3 +68,11 @@ rye run mvg hybridmandelbulbvariationsillustration --width 512 --height 512 --ou
 docker build -t mandelbulb_variations_generator:0.0.1 .
 docker run -it --gpus all mandelbulb_variations_generator:0.0.1 mvg <some options described above>
 ```
+
+## Model pre-training
+
+To pre-train CNNs and fine-tune them on supervised classification tasks, one can use [the codes released by the authors of FractalDB](https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch). 
+
+To pre-train and fine-tune ViTs, one can rely on [the codes published by the authors of VisualAtom] (https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom}}. 
+
+Regarding WideResNet-50 pre-training for the anomaly detection task, we suggest one to prepare his/her own training code. Once the pre-trained weight is saved, one can make use of [the official codes released by the authors of PatchCore](https://github.com/amazon-science/patchcore-inspection).
