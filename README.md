@@ -73,6 +73,6 @@ docker run -it --gpus all mandelbulb_variations_generator:0.0.1 mvg <some option
 
 To pre-train CNNs and fine-tune them on supervised classification tasks, one can use [the codes released by the authors of FractalDB](https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch). 
 
-To pre-train and fine-tune ViTs, one can rely on [the codes published by the authors of VisualAtom] (https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom}}. 
+To pre-train and fine-tune ViTs, one can rely on [the codes published by the authors of VisualAtom] (https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom). 
 
 Regarding WideResNet-50 pre-training for the anomaly detection task, we suggest one to prepare his/her own training code. Once the pre-trained weight is saved, one can make use of [the official codes released by the authors of PatchCore](https://github.com/amazon-science/patchcore-inspection).
