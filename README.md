@@ -76,3 +76,12 @@ To pre-train CNNs and fine-tune them on supervised classification tasks, one can
 To pre-train and fine-tune ViTs, one can rely on [the codes published by the authors of VisualAtom] (https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom). 
 
 Regarding WideResNet-50 pre-training for the anomaly detection task, we suggest one to prepare his/her own training code. Once the pre-trained weight is saved, one can make use of [the official codes released by the authors of PatchCore](https://github.com/amazon-science/patchcore-inspection).
+
+## Contact
+
+For any inquiries, please create an issue in this repository or send an email to one of the following addresses:
+
+benjamin.chiche@rist.co.jp
+yuto.horikawa@rist.co.jp
+
+## Citation
