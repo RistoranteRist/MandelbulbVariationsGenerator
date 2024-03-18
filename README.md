@@ -7,8 +7,8 @@ This repository includes the following files.
 * Python scripts to generate the datasets (`src`), based on OpenGL Shading Language.
 
 <div align="center">
-<img src=samples/MandelbulbVAR-1k/power10-rule42/1.png width="384">
-<img src=samples/MandelbulbVAR-Hybrid-21k/power10-rule132_power9-rule32/7.png width="384">
+<img src=samples/MandelbulbVAR-1k/power10-rule42/1.png width="256">
+<img src=samples/MandelbulbVAR-Hybrid-21k/power10-rule132_power9-rule32/7.png width="256">
 </div>
 
 ## How to run
