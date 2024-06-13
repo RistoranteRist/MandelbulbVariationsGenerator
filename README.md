@@ -1,6 +1,10 @@
 # MandelbulbVariationsGenerator
 
+## 5-min Abstract Video
+
 [![5-min abstract video](https://img.youtube.com/vi/Chis94rAAuM/0.jpg)](https://www.youtube.com/watch?v=Chis94rAAuM)
+
+## Overview of this repository
 
 This is the official repository of our work [Pre-training Vision Models with Mandelbulb Variations](https://openaccess.thecvf.com/content/CVPR2024/html/Chiche_Pre-training_Vision_Models_with_Mandelbulb_Variations_CVPR_2024_paper.html).
 This repository includes the following files.
