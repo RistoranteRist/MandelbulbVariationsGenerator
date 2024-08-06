@@ -94,3 +94,14 @@ benjamin.chiche@rist.co.jp
 yuto.horikawa@rist.co.jp
 
 ## Citation
+If you find our work helpful for your resarch or work, please cite our paper:
+```bibtex
+@InProceedings{Chiche_2024_CVPR,
+    author    = {Chiche, Benjamin Naoto and Horikawa, Yuto and Fujita, Ryo},
+    title     = {Pre-training Vision Models with Mandelbulb Variations},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22062-22071}
+}
+```
